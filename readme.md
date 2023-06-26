@@ -1,3 +1,3 @@
-# my first project update
+# My First Project Update
 
-CSS got so much better!
+HTML & CSS got so much better!
