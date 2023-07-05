@@ -1,0 +1,50 @@
+.nav{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #F9F9F9;
+    padding : 20px 50px;
+    box-sizing: border-box;
+    border-top : 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.nav__list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__link{
+    position: relative;
+    color: #2F363E;
+}
+
+@keyframes notificationAnimation {
+    0% {
+      transform: none;
+    }
+    50% {
+      transform: translateY(-5px);
+    }
+    100% {
+      transform: none;
+    }
+  }  
+
+.nav__chat_notification{
+    position: absolute;
+    left: 15px;
+    bottom: 5px;
+    animation: notificationAnimation 2s ease-in-out infinite;
+}
+
+
+.nav__other_notification{
+    background-color: tomato;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    position: absolute;
+    left: 20px;
+    bottom: 15px;
+}
+
